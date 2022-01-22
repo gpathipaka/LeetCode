@@ -69,6 +69,23 @@ public class MyLinkedList {
         count++;
     }
 
+    public void removeElementAt(int index) {
+        if(index < 0 || index > count) {
+            return;
+        }
+        int idx = 0;
+        Node curr = head.next;
+        Node prev = curr;
+        while(idx < index) {
+            idx++;
+            prev = curr;
+            curr = curr.next;
+        }
+        prev.next = curr.next;
+        curr.next.prev = prev;
+        count--;
+    }
+
     public void printElements() {
         Node curr = head.next;
         while(curr.next != null) {
