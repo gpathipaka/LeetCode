@@ -1,6 +1,6 @@
 package LC101;
 
-class MyHashMap {
+public class MyHashMap {
     Node[] nodes;
 
     public MyHashMap() {
