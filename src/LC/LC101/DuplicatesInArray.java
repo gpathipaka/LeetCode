@@ -1,7 +1,6 @@
-package LC101;
+package LC.LC101;
 
 import java.util.*;
-import java.util.stream.*;
 
 public class DuplicatesInArray {
 
