@@ -20,7 +20,7 @@ public class ArraySortedAndRotated {
 
     public static void main(String[] args) {
         ArraySortedAndRotated arraySortedAndRotated = new ArraySortedAndRotated();
-        int[] arr = { 3, 4, 5, 6 };
+        int[] arr = { 3, 4, 5, 6, 1, 2 };
         if(arraySortedAndRotated.check(arr)) {
             System.out.println("Array Sorted and Roted");
         } else {
